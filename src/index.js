@@ -9,29 +9,34 @@ var Alexa = require('alexa-sdk');
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
 
-var SKILL_NAME = "Space Facts";
-var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
-var HELP_REPROMPT = "What can I help you with?";
-var STOP_MESSAGE = "Goodbye!";
+var SKILL_NAME = "James Webb Space Telescope facts";
+var GET_FACT_MESSAGE = "Did you know that";
+var HELP_MESSAGE = "You can say tell me a fact, or, you can say exit...";
+var HELP_REPROMPT = "What would you like me to do";
+var STOP_MESSAGE = "Come back soon";
 
 //=========================================================================================================================================
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+  //  "A year on Mercury is just 88 days long.",
+    "The James Web Telescope is named after James Webb, who played an important role in the Apollo project.",
+    "The James Web Telescope was previously named the Next Generation Space Telescope.",
+    "The James Web Telescope is scheduled to launch in October Two thousand and eighteen.",
+    "The James Web Telescope has a larger mirror than the Hubble Telescope, at just short of three times the size.",
+    "The James Web Telescope is equipped with a specialist sun shield to keep its temperature below minus two hundred and twenty degrees celsius.",
+    "The James Web Telescope aims to observe the some of the most distant events and objects in the universe including the formations of the first galaxys.",
+    "The James Web Telescope will produce direct imaging of exoplanets, which are planets beyond our own solar system.",
+    "The James Web Telescope mission has a ten year goal.",
+    "The James Web Telescope sun shield is designed to fold twelve times to fit within the Ariane 5 rocket that will be used to launch it.",
+    "The James Web Telescope is expected to require a ten billion dollar budget to complete.",
+    "The James Web Telescope will have a launch mass of six thousand five hundred kilograms, which is equivalent to the weight of an adult african elephant.",
+    "The James Web Telescope has an expected mass which is around half that of the hubble telescope.",
+    "The James Web Telescope will be operating one million five hundred thousand kilometers away from earth. The Hubble telescope only operates five hundred and fifty kilometers away from earth",
+    "The James Web Telescope is an infrared telescope, to operate is must be kept very cold. The longer the infrared rays the colder it must be",
+    "The James Web Telescope is the final large NASA astrophysics mission of its generation to be built as many other proposed observatories have been canceled or put on hold like the international x ray observatory and the Terrestrial planet finder.",
+    "The James Web Telescope has been a collaborative pursuit involving NASA, the E S A and the C S A across twenty countries.",
+    "The James Web Telescope will reach its orbit point one million and five hundred thousand kilometers away one month after launch."
 ];
 
 //=========================================================================================================================================
