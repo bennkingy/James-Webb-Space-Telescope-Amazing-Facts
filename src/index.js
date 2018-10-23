@@ -22,7 +22,7 @@ var data = [
   //  "A year on Mercury is just 88 days long.",
     "The James Web Telescope is named after James Webb, who played an important role in the Apollo project.",
     "The James Web Telescope was previously named the Next Generation Space Telescope.",
-    "The James Web Telescope is scheduled to launch in October Two thousand and eighteen.",
+    "The James Web Telescope is not scheduled to launch until 2020 due to the need for more testing.",
     "The James Web Telescope has a larger mirror than the Hubble Telescope, at just short of three times the size.",
     "The James Web Telescope is equipped with a specialist sun shield to keep its temperature below minus two hundred and twenty degrees celsius.",
     "The James Web Telescope aims to observe the some of the most distant events and objects in the universe including the formations of the first galaxys.",
